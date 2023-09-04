@@ -540,6 +540,43 @@ video {
   position: absolute;
 }
 
+.relative{
+  position: relative;
+}
+
+.top-0{
+  top: 0px;
+}
+
+.-z-10{
+  z-index: -10;
+}
+
+.z-10{
+  z-index: 10;
+}
+
+.z-50{
+  z-index: 50;
+}
+
+.z-20{
+  z-index: 20;
+}
+
+.mx-6{
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.flex{
+  display: flex;
+}
+
+.hidden{
+  display: none;
+}
+
 .h-full{
   height: 100%;
 }
@@ -554,6 +591,22 @@ video {
 
 .w-screen{
   width: 100vw;
+}
+
+.items-center{
+  align-items: center;
+}
+
+.justify-between{
+  justify-content: space-between;
+}
+
+.self-start{
+  align-self: flex-start;
+}
+
+.self-end{
+  align-self: flex-end;
 }
 
 .overflow-hidden{
@@ -581,12 +634,28 @@ video {
   background-color: left -21rem top;
 }
 
+.bg-opacity-70{
+  --tw-bg-opacity: 0.7;
+}
+
+.bg-opacity-50{
+  --tw-bg-opacity: 0.5;
+}
+
 .bg-\[url\(\'\.\.\/images\/bg-pattern-intro-mobile\.svg\'\)\]{
   background-image: url('../images/bg-pattern-intro-mobile.svg');
 }
 
 .bg-gradient-to-b{
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+}
+
+.bg-gradient-to-br{
+  background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+}
+
+.bg-gradient-to-bl{
+  background-image: linear-gradient(to bottom left, var(--tw-gradient-stops));
 }
 
 .from-Very-light-red{
@@ -615,6 +684,61 @@ video {
   background-position: left -21rem top -15rem;
 }
 
+.bg-\[left_-20rem_top_-15rem\]{
+  background-position: left -20rem top -15rem;
+}
+
+.bg-\[left_-20rem_top_-15\.5rem\]{
+  background-position: left -20rem top -15.5rem;
+}
+
+.bg-\[left_-21rem_top_-15\.5rem\]{
+  background-position: left -21rem top -15.5rem;
+}
+
+.bg-\[left_-21rem_top_-16rem\]{
+  background-position: left -21rem top -16rem;
+}
+
+.bg-\[left_-2rem_top_-16rem\]{
+  background-position: left -2rem top -16rem;
+}
+
+.bg-\[left_-20\.5rem_top_-16rem\]{
+  background-position: left -20.5rem top -16rem;
+}
+
+.bg-\[left_-20\.5rem_top_-17rem\]{
+  background-position: left -20.5rem top -17rem;
+}
+
+.bg-\[left_-20\.5rem_top_-18rem\]{
+  background-position: left -20.5rem top -18rem;
+}
+
+.bg-\[left_-20\.5rem_top_-1rem\]{
+  background-position: left -20.5rem top -1rem;
+}
+
 .bg-no-repeat{
   background-repeat: no-repeat;
+}
+
+.py-14{
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+
+.pt-14{
+  padding-top: 3.5rem;
+}
+
+.pt-12{
+  padding-top: 3rem;
+}
+
+@media (min-width: 768px){
+  .md\:hidden{
+    display: none;
+  }
 }

@@ -6,12 +6,31 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
         <link rel="stylesheet" href="./css/style.css">
-        <script src="./js/script.js" defer></script>
+        <script src="./js/navigation.js" defer></script>
     </head>
     <body>
       <header class="w-screen">
-        <nav class="w-full h-screen bg-gradient-to-b from-Very-light-red to-Light-red rounded-bl-[6.25rem] overflow-hidden">
-          <div class="w-full h-full bg-[url('../images/bg-pattern-intro-mobile.svg') bg-no-repeat bg-[left_-21rem_top_-15rem]"></div>
+        <nav class="w-full h-screen pt-14 relative bg-gradient-to-b from-Very-light-red to-Light-red rounded-bl-[6.25rem] overflow-hidden">
+          
+          <!-- bg pattern -->
+          <div class="w-full h-full absolute top-0 bg-[url('../images/bg-pattern-intro-mobile.svg')] bg-no-repeat bg-[left_-20.5rem_top_-17rem]"></div>
+          
+          <!-- nav top -->
+          <div class="flex items-center justify-between mx-6">
+
+            <!-- logo -->
+            <div class="z-20">
+              <img src="images/logo.svg" alt="">
+            </div>
+            
+            <!-- menu toggle btn -->
+            <btn class="menu-toggle-btn md:hidden z-20">
+              <img id="hamburger-icon" src="images/icon-hamburger.svg" alt="">
+              <img id="close-icon" class="hidden" src="images/icon-close.svg" alt="">
+            </bt>
+
+          </div>
+
         </nav>
       </header>
     </body>
