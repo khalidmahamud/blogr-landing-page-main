@@ -548,18 +548,6 @@ video {
   top: 0px;
 }
 
-.-z-10{
-  z-index: -10;
-}
-
-.z-10{
-  z-index: 10;
-}
-
-.z-50{
-  z-index: 50;
-}
-
 .z-20{
   z-index: 20;
 }
@@ -577,12 +565,24 @@ video {
   display: none;
 }
 
+.h-\[90\%\]{
+  height: 90%;
+}
+
 .h-full{
   height: 100%;
 }
 
 .h-screen{
   height: 100vh;
+}
+
+.h-\[9\%\]{
+  height: 9%;
+}
+
+.h-\[95\%\]{
+  height: 95%;
 }
 
 .w-full{
@@ -601,45 +601,20 @@ video {
   justify-content: space-between;
 }
 
-.self-start{
-  align-self: flex-start;
-}
-
-.self-end{
-  align-self: flex-end;
-}
-
 .overflow-hidden{
   overflow: hidden;
 }
 
+.rounded-\[\]{
+  border-radius: ;
+}
+
+.rounded-\[5rem\]{
+  border-radius: 5rem;
+}
+
 .rounded-bl-\[6\.25rem\]{
   border-bottom-left-radius: 6.25rem;
-}
-
-.bg-white{
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-\[left_\]{
-  background-color: left;
-}
-
-.bg-\[left_21\]{
-  background-color: left 21;
-}
-
-.bg-\[left_-21rem_top_\]{
-  background-color: left -21rem top;
-}
-
-.bg-opacity-70{
-  --tw-bg-opacity: 0.7;
-}
-
-.bg-opacity-50{
-  --tw-bg-opacity: 0.5;
 }
 
 .bg-\[url\(\'\.\.\/images\/bg-pattern-intro-mobile\.svg\'\)\]{
@@ -648,14 +623,6 @@ video {
 
 .bg-gradient-to-b{
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
-}
-
-.bg-gradient-to-br{
-  background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
-}
-
-.bg-gradient-to-bl{
-  background-image: linear-gradient(to bottom left, var(--tw-gradient-stops));
 }
 
 .from-Very-light-red{
@@ -668,77 +635,106 @@ video {
   --tw-gradient-to: hsl(353, 100%, 62%) var(--tw-gradient-to-position);
 }
 
-.bg-\[left_21rem\]{
-  background-position: left 21rem;
-}
-
-.bg-\[left_-21rem\]{
-  background-position: left -21rem;
-}
-
-.bg-\[left_-21rem_top\]{
-  background-position: left -21rem top;
-}
-
-.bg-\[left_-21rem_top_-15rem\]{
-  background-position: left -21rem top -15rem;
-}
-
-.bg-\[left_-20rem_top_-15rem\]{
-  background-position: left -20rem top -15rem;
-}
-
-.bg-\[left_-20rem_top_-15\.5rem\]{
-  background-position: left -20rem top -15.5rem;
-}
-
-.bg-\[left_-21rem_top_-15\.5rem\]{
-  background-position: left -21rem top -15.5rem;
-}
-
-.bg-\[left_-21rem_top_-16rem\]{
-  background-position: left -21rem top -16rem;
-}
-
-.bg-\[left_-2rem_top_-16rem\]{
-  background-position: left -2rem top -16rem;
-}
-
-.bg-\[left_-20\.5rem_top_-16rem\]{
-  background-position: left -20.5rem top -16rem;
-}
-
 .bg-\[left_-20\.5rem_top_-17rem\]{
   background-position: left -20.5rem top -17rem;
-}
-
-.bg-\[left_-20\.5rem_top_-18rem\]{
-  background-position: left -20.5rem top -18rem;
-}
-
-.bg-\[left_-20\.5rem_top_-1rem\]{
-  background-position: left -20.5rem top -1rem;
 }
 
 .bg-no-repeat{
   background-repeat: no-repeat;
 }
 
-.py-14{
-  padding-top: 3.5rem;
-  padding-bottom: 3.5rem;
-}
-
 .pt-14{
   padding-top: 3.5rem;
 }
 
-.pt-12{
-  padding-top: 3rem;
+.font-ubuntu{
+  font-family: Ubuntu, sans-serif;
+}
+
+.text-Grayish-blue{
+  --tw-text-opacity: 1;
+  color: hsl(240 2% 79% / var(--tw-text-opacity));
+}
+
+.text-white{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 @media (min-width: 768px){
   .md\:hidden{
     display: none;
+  }
+
+  .md\:h-\[70\%\]{
+    height: 70%;
+  }
+
+  .md\:h-\[90\%\]{
+    height: 90%;
+  }
+
+  .md\:rounded-\[5rem\]{
+    border-radius: 5rem;
+  }
+
+  .md\:rounded-bl-\[5rem\]{
+    border-bottom-left-radius: 5rem;
+  }
+
+  .md\:rounded-bl-\[rem\]{
+    border-bottom-left-radius: rem;
+  }
+
+  .md\:rounded-bl-\[4\.25rem\]{
+    border-bottom-left-radius: 4.25rem;
+  }
+
+  .md\:rounded-bl-\[4rem\]{
+    border-bottom-left-radius: 4rem;
+  }
+
+  .md\:bg-\[\]{
+    background-color: ;
+  }
+
+  .md\:bg-\[left_1rem_top_1r\]{
+    background-color: left 1rem top 1r;
+  }
+
+  .md\:bg-\[url\(\'\.\.\/images\/bg-pattern-intro-mobile\.svg\'\)\]{
+    background-image: url('../images/bg-pattern-intro-mobile.svg');
+  }
+
+  .md\:bg-\[url\(\'\.\.\/images\/bg-pattern-intro-desktop\.svg\'\)\]{
+    background-image: url('../images/bg-pattern-intro-desktop.svg');
+  }
+
+  .md\:bg-gradient-to-r{
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  }
+
+  .md\:bg-\[left_-20\.5rem_top_-17rem\]{
+    background-position: left -20.5rem top -17rem;
+  }
+
+  .md\:bg-\[left_0_top_-17rem\]{
+    background-position: left 0 top -17rem;
+  }
+
+  .md\:bg-\[left_0_top_0\]{
+    background-position: left 0 top 0;
+  }
+
+  .md\:bg-\[left_1rem_top_0\]{
+    background-position: left 1rem top 0;
+  }
+
+  .md\:bg-\[left_1rem_top_1rem\]{
+    background-position: left 1rem top 1rem;
+  }
+
+  .md\:bg-\[left_-27\.5em_top_-82\.75em\]{
+    background-position: left -27.5em top -82.75em;
   }
 }

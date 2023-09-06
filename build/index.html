@@ -9,11 +9,11 @@
         <script src="./js/navigation.js" defer></script>
     </head>
     <body>
-      <header class="w-screen">
-        <nav class="w-full h-screen pt-14 relative bg-gradient-to-b from-Very-light-red to-Light-red rounded-bl-[6.25rem] overflow-hidden">
+      <header class="w-screen h-screen">
+        <nav class="w-full h-[95%] md:h-[90%] pt-14 relative bg-gradient-to-b md:bg-gradient-to-r from-Very-light-red to-Light-red rounded-bl-[6.25rem] md:rounded-bl-[4rem] overflow-hidden">
           
           <!-- bg pattern -->
-          <div class="w-full h-full absolute top-0 bg-[url('../images/bg-pattern-intro-mobile.svg')] bg-no-repeat bg-[left_-20.5rem_top_-17rem]"></div>
+          <div class="w-full h-full absolute top-0 bg-[url('../images/bg-pattern-intro-mobile.svg')] bg-[left_-20.5rem_top_-17rem] md:bg-[url('../images/bg-pattern-intro-desktop.svg')] md:bg-[left_-27.5em_top_-82.75em] bg-no-repeat"></div>
           
           <!-- nav top -->
           <div class="flex items-center justify-between mx-6">
@@ -24,10 +24,15 @@
             </div>
             
             <!-- menu toggle btn -->
-            <btn class="menu-toggle-btn md:hidden z-20">
+            <button class="menu-toggle-btn md:hidden z-20">
               <img id="hamburger-icon" src="images/icon-hamburger.svg" alt="">
               <img id="close-icon" class="hidden" src="images/icon-close.svg" alt="">
-            </bt>
+            </button>
+
+            <div class="z-20">
+              <button class="text-white">Login</button>
+              <button>Sign Up</button>
+            </div>
 
           </div>
 
