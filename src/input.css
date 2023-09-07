@@ -6,6 +6,7 @@
 
 @layer components {
     .navlink-active {
-        @apply h-[155px] md:h-[120px] px-5 md:pr-10 py-6 gap-3 mt-4
+        @apply h-[155px] md:h-[120px] px-5 md:pr-10 py-6 gap-3 
     }
 }
+
