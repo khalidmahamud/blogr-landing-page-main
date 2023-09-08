@@ -45,9 +45,11 @@
                 </a>
 
                 <ul class="w-full h-0 transition-all duration-200 ease-in-out overflow-hidden md:absolute md:top-6 md:w-auto  bg-Grayish-blue bg-opacity-40 md:bg-white md:bg-opacity-100 rounded-lg text-Very-dark-grayish-blue text-[16px] md:text-xs md:shadow-lg text-center md:text-left flex flex-col">
-                  <li><a class="text-Very-dark-grayish-blue text-opacity-60 hover:text-opacity-100" href=""></a></li>
-                  <li><a class="text-Very-dark-grayish-blue text-opacity-60 hover:text-opacity-100" href=""></a></li>
-                  <li><a class="text-Very-dark-grayish-blue text-opacity-60 hover:text-opacity-100" href=""></a></li>
+                  <li><a class="text-Very-dark-grayish-blue text-opacity-60 hover:text-opacity-100" href="#overview">Overview</a></li>
+                  <li><a class="text-Very-dark-grayish-blue text-opacity-60 hover:text-opacity-100" href="#pricing">Pricing</a></li>
+                  <li><a class="text-Very-dark-grayish-blue text-opacity-60 hover:text-opacity-100" href="#maketplace">Marketplace</a></li>
+                  <li><a class="text-Very-dark-grayish-blue text-opacity-60 hover:text-opacity-100" href="#features">Features</a></li>
+                  <li><a class="text-Very-dark-grayish-blue text-opacity-60 hover:text-opacity-100" href="#integrations">Integrations</a></li>
                 </ul>
               </li>
               <ll class="flex flex-col justify-center relative items-center gap-2">
@@ -59,9 +61,10 @@
                 </a>
 
                 <ul class="w-full h-0 transition-all duration-200 ease-in-out overflow-hidden md:absolute md:top-6 md:w-auto  bg-Grayish-blue bg-opacity-40 md:bg-white md:bg-opacity-100 rounded-lg text-Very-dark-grayish-blue text-[16px] md:text-xs md:shadow-lg text-center md:text-left flex flex-col">
-                  <li><a class="text-Very-dark-grayish-blue text-opacity-60 hover:text-opacity-100" href=""></a></li>
-                  <li><a class="text-Very-dark-grayish-blue text-opacity-60 hover:text-opacity-100" href=""></a></li>
-                  <li><a class="text-Very-dark-grayish-blue text-opacity-60 hover:text-opacity-100" href=""></a></li>
+                  <li><a class="text-Very-dark-grayish-blue text-opacity-60 hover:text-opacity-100" href="#about">About</a></li>
+                  <li><a class="text-Very-dark-grayish-blue text-opacity-60 hover:text-opacity-100" href="#team">Team</a></li>
+                  <li><a class="text-Very-dark-grayish-blue text-opacity-60 hover:text-opacity-100" href="#blog">Blog</a></li>
+                  <li><a class="text-Very-dark-grayish-blue text-opacity-60 hover:text-opacity-100" href="#careers">Careers</a></li>
                 </ul>
               </ll>
               <ll class="flex flex-col justify-center relative items-center gap-2">
@@ -116,31 +119,45 @@
   </header>
 
   <main class="">
-    <section id="product" class="w-full overflow-x-hidden md:py-10">
+    <section class="w-full overflow-x-hidden xl:py-10">
       <div class="w-full md:max-w-5xl md:mx-auto font-overpass px-6 py-20">
-        <h1 class="text-2xl font-semibold text-Very-dark-blue text-center mb-10">Designed for the future</h1>
+        <h1 class="text-3xl font-semibold text-Very-dark-blue text-center mb-10">Designed for the future</h1>
       
-        <div class="flex flex-col items-center justify-center md:grid md:grid-cols-2 md:content-center gap-4">
-          <picture class="max-w-full md:h-full md:scale-125 xl:scale-150 md:order-2 md:relative md:-right-1/3 xl:-right-[65%]">
-            <source media="(min-width: 768px)" srcset="./images/illustration-editor-desktop.svg" />
+        <div class="flex flex-col items-center justify-center lg:grid lg:grid-cols-2 lg:content-center gap-4 lg:mb-12">
+          <picture class="max-w-full lg:h-full lg:scale-125 xl:scale-[1.6] lg:order-2 lg:relative lg:-right-1/3 xl:-right-[65%]">
+            <source media="(min-width: 1024px)" srcset="./images/illustration-editor-desktop.svg" />
             <img src="./images/illustration-editor-mobile.svg" alt="" aria-hidden="true" />
           </picture>
-          <article class="flex flex-col gap-7 md:order-1">
-            <div class="flex flex-col text-center md:text-left gap-4">
+          <article class="flex flex-col gap-7 lg:order-1">
+            <div class="flex flex-col text-center lg:text-left gap-4">
               <h2 class="text-2xl text-Very-dark-blue font-semibold">Introducing an extensive editor</h2>
-              <p>Blogr features an exceedingly intuitive interface which lets you focus on one thing:creating content. The editor supports management of mulitple blogs and allows easy manipulation of embeds such as images, videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or change the looks of a blog.</p>
+              <p class="text-Very-dark-grayish-blue">Blogr features an exceedingly intuitive interface which lets you focus on one thing:creating content. The editor supports management of mulitple blogs and allows easy manipulation of embeds such as images, videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or change the looks of a blog.</p>
             </div>
-            <div class="flex flex-col text-center md:text-left gap-4">
+            <div class="flex flex-col text-center lg:text-left gap-4">
               <h2 class="text-2xl text-Very-dark-blue font-semibold">Robust content management</h2>
-              <p>Flexible content management enables users to easily move through posts. Increase the usability of your blog by addng customized categories, sections, format, or flow. With this functionality you're in full control.</p>
+              <p class="text-Very-dark-grayish-blue">Flexible content management enables users to easily move through posts. Increase the usability of your blog by addng customized categories, sections, format, or flow. With this functionality you're in full control.</p>
             </div>
           </article>
         </div>
-      
       </div>
+
+      
     </section>
 
-    <section></section>
+    <section class="w-full h-[85vh] md:h-[50vh] bg-gradient-to-b md:bg-gradient-to-r from-Very-dark-gray-blue to-Very-dark-desaturated-blue rounded-bl-[6.25rem] md:rounded-bl-[4rem] rounded-tr-[6.25rem] md:rounded-tr-[4rem] mt-36 md:mt-10">
+      
+      <div class="w-full h-full rounded-bl-[6.25rem] md:rounded-bl-[4rem] rounded-tr-[6.25rem] md:rounded-tr-[4rem] bg-[url('../images/bg-pattern-circles.svg')] bg-no-repeat bg-[left_-5rem_bottom_15rem] sm:bg-[left_0rem_bottom_15rem] md:bg-[left_-24rem_bottom_-13rem] bg-cover">
+        <div class="w-full h-full md:max-w-5xl md:mx-auto -translate-y-1/3 md:translate-y-0 flex flex-col md:flex-row md:justify-between">
+          <img class="md:translate-x-[16%] md:translate-y-[5%] md:scale-150" src="images/illustration-phones.svg" alt="">
+          
+          <article class="w-1/2 px-6 xl:px-0 text-center md:text-left font-overpass flex flex-col gap-6 md:h-full md:justify-center">
+            <h2 class="text-white text-2xl font-semibold">State of the Art Infrastructure</h2>
+            <p class="text-white text-opacity-70 text-sm leading-6">With reliability and speed in mind, worldwide date centers provide the backbone for ultra-fast connectivity. This ensures yoursite will load instantly, no matter where your readers are, keeping your site competitive.</p>
+          </article>
+        </div>
+      </div>
+
+    </section>
   </main>
 
 </body>
