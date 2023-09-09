@@ -614,8 +614,16 @@ video {
   margin-bottom: 4rem;
 }
 
+.mt-6{
+  margin-top: 1.5rem;
+}
+
 .flex{
   display: flex;
+}
+
+.grid{
+  display: grid;
 }
 
 .hidden{
@@ -638,6 +646,10 @@ video {
   max-height: 80vh;
 }
 
+.max-h-\[90vh\]{
+  max-height: 90vh;
+}
+
 .w-full{
   width: 100%;
 }
@@ -648,6 +660,18 @@ video {
 
 .w-auto{
   width: auto;
+}
+
+.w-\[\]{
+  width: ;
+}
+
+.w-\[40rem\]{
+  width: 40rem;
+}
+
+.w-\[50rem\]{
+  width: 50rem;
 }
 
 .max-w-5xl{
@@ -673,6 +697,18 @@ video {
 
 .rotate-180{
   --tw-rotate: 180deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.scale-125{
+  --tw-scale-x: 1.25;
+  --tw-scale-y: 1.25;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.scale-110{
+  --tw-scale-x: 1.1;
+  --tw-scale-y: 1.1;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -757,6 +793,11 @@ video {
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
+.border-red-500{
+  --tw-border-opacity: 1;
+  border-color: rgb(239 68 68 / var(--tw-border-opacity));
+}
+
 .bg-Grayish-blue{
   --tw-bg-opacity: 1;
   background-color: hsl(240 2% 79% / var(--tw-bg-opacity));
@@ -830,6 +871,16 @@ video {
 
 .bg-no-repeat{
   background-repeat: no-repeat;
+}
+
+.object-cover{
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.object-fill{
+  -o-object-fit: fill;
+     object-fit: fill;
 }
 
 .p-6{
@@ -1296,6 +1347,14 @@ video {
     margin-top: 8rem;
   }
 
+  .lg\:mb-2{
+    margin-bottom: 0.5rem;
+  }
+
+  .lg\:mb-28{
+    margin-bottom: 7rem;
+  }
+
   .lg\:grid{
     display: grid;
   }
@@ -1371,6 +1430,10 @@ video {
 
   .lg\:gap-6{
     gap: 1.5rem;
+  }
+
+  .lg\:overflow-auto{
+    overflow: auto;
   }
 
   .lg\:rounded-tr-\[4rem\]{
